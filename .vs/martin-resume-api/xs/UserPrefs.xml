@@ -1,0 +1,68 @@
+﻿<Properties StartupConfiguration="{3037C828-6FED-483D-B4D5-9166ECC07B96}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="martin-resume-api/Docker/docker-compose.yml">
+    <Files>
+      <File FileName="martin-resume-api/Utils/AutoMapperProfile.cs" Line="17" Column="1" />
+      <File FileName="martin-resume-api/Dtos/LoginDto.cs" Line="1" Column="1" />
+      <File FileName="martin-resume-api/Dtos/UserDto.cs" Line="1" Column="1" />
+      <File FileName="martin-resume-api/Entities/Program.cs" Line="30" Column="1" />
+      <File FileName="martin-resume-api/Entities/User.cs" Line="21" Column="1" />
+      <File FileName="martin-resume-api/ApplicationDbContext.cs" Line="42" Column="29" />
+      <File FileName="martin-resume-api/appsettings.Development.json" Line="10" Column="78" />
+      <File FileName="martin-resume-api/Utils/Encryption.cs" Line="1" Column="1" />
+      <File FileName="martin-resume-api/Services/UserService.cs" Line="1" Column="1" />
+      <File FileName="martin-resume-api/Repos/UserRepo.cs" Line="1" Column="1" />
+      <File FileName="martin-resume-api/Repos/UserProgramRepo.cs" Line="18" Column="10" />
+      <File FileName="martin-resume-api/Program.cs" Line="30" Column="35" />
+      <File FileName="martin-resume-api/Migrations/20220104224504_InitialCreate.cs" Line="1" Column="1" />
+      <File FileName="martin-resume-api/Migrations/20220105151056_Initial2.cs" Line="1" Column="1" />
+      <File FileName="martin-resume-api/Controllers/UserController.cs" Line="1" Column="1" />
+      <File FileName="martin-resume-api/Controllers/WeatherForecastController.cs" Line="1" Column="1" />
+      <File FileName="martin-resume-api/Services/UserSolutionRepo.cs" Line="1" Column="1" />
+      <File FileName="martin-resume-api/Migrations/20220104224504_InitialCreate.Designer.cs" Line="1" Column="1" />
+      <File FileName="martin-resume-api/Migrations/20220105151056_Initial2.Designer.cs" Line="1" Column="1" />
+      <File FileName="martin-resume-api/Docker/docker-compose.yml" Line="10" Column="21" />
+      <File FileName="martin-resume-api/Migrations/ApplicationDbContextModelSnapshot.cs" Line="1" Column="1" />
+      <File FileName="martin-resume-api/appsettings.json" Line="1" Column="1" />
+      <File FileName="martin-resume-api/Migrations/20220105182752_Initial3.Designer.cs" Line="1" Column="1" />
+      <File FileName="martin-resume-api/Auth/AuthRole.cs" Line="1" Column="1" />
+      <File FileName="martin-resume-api/Auth/Policies.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="martin-resume-api" expanded="True">
+            <Node name="martin-resume-api" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Auth" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Docker" expanded="True">
+                <Node name="docker-compose.yml" selected="True" />
+              </Node>
+              <Node name="Dtos" expanded="True" />
+              <Node name="Entities" expanded="True" />
+              <Node name="Migrations" expanded="True">
+                <Node name="20220104224504_InitialCreate.cs" expanded="True" />
+                <Node name="20220105151056_Initial2.cs" expanded="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+              <Node name="Repos" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="Utils" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.martin-resume-api FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

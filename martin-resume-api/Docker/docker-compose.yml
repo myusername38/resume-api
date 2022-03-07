@@ -1,0 +1,15 @@
+﻿version: '3'
+
+services:
+  mssql-server-linux:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    volumes:
+      - sqlvolume:/var/opt/mssql
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=Apples123!
+    ports:
+      - "1433:1433"
+
+volumes:
+  sqlvolume:
