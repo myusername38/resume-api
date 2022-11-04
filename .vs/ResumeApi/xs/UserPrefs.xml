@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{F33DF23D-7E59-4C6B-BA15-4B28F9FCD60E}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="ResumeApi/Program.cs">
+    <Files>
+      <File FileName="ResumeApi/Auth/RoleRequirementHandler.cs" Line="1" Column="1" />
+      <File FileName="ResumeApi/Auth/RoleRequirement.cs" Line="1" Column="1" />
+      <File FileName="ResumeApi/Controllers/AuthenticatationController.cs" Line="27" Column="45" />
+      <File FileName="ResumeApi/Auth/AuthService.cs" Line="16" Column="18" />
+      <File FileName="ResumeApi/Auth/AnyRoleRequirement.cs" Line="1" Column="1" />
+      <File FileName="ResumeApi/Auth/Policies.cs" Line="1" Column="1" />
+      <File FileName="ResumeApi/Auth/AuthRole.cs" Line="1" Column="1" />
+      <File FileName="ResumeApi/appsettings.Development.json" Line="1" Column="1" />
+      <File FileName="ResumeApi/Program.cs" Line="12" Column="19" />
+      <File FileName="ResumeApi/Controllers/UserController.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ResumeApi" expanded="True">
+            <Node name="ResumeApi" expanded="True">
+              <Node name="Services" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ResumeApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+</Properties>
