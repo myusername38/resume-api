@@ -24,6 +24,7 @@
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.10" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.10" />
     <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+    <PackageReference Include="MailKit" Version="3.4.2" />
   </ItemGroup>
 
   <ItemGroup>
@@ -50,6 +51,10 @@
     <None Remove="Dtos\Response\" />
     <None Remove="Dtos\Responses\" />
     <None Remove="Auth\" />
+    <None Remove="MimeKit" />
+    <None Remove="MailKit" />
+    <None Remove="Models\Configuration\" />
+    <None Remove="Models\Email\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Enums\" />
@@ -64,5 +69,7 @@
     <Folder Include="Dtos\Solution\" />
     <Folder Include="Dtos\Responses\" />
     <Folder Include="Auth\" />
+    <Folder Include="Models\Configuration\" />
+    <Folder Include="Models\Email\" />
   </ItemGroup>
 </Project>

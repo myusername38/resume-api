@@ -18,6 +18,10 @@ public interface IAuthService
     public string GenerateJWTToken(User user);
     public Task<ApplicationUser> Register(string email, string username, string password);
     public Task<ApplicationUser> Authenticate(string email, string password);
+    public Task<string> GetEamilVerificationCode(ApplicationUser user);
+    public Task<string> GetChangePasswordCode(ApplicationUser user);
+    public Task<IdentityResult> VerifyEmailAddress(ApplicationUser user, string token);
+    public Task<IdentityResult> UpdateUserPassword(ApplicationUser user, string token, string newPassword);
 }
 
 public class AuthService: IAuthService
@@ -90,5 +94,25 @@ public class AuthService: IAuthService
         };
         var result = await _userManager.CreateAsync(user, password);
         return user;
+    }
+
+    public async Task<string> GetEamilVerificationCode(ApplicationUser user)
+    {
+        return await _userManager.GenerateEmailConfirmationTokenAsync(user);
+    }
+
+    public async Task<string> GetChangePasswordCode(ApplicationUser user)
+    {
+        return await _userManager.GeneratePasswordResetTokenAsync(user);
+    }
+
+    public async Task<IdentityResult> VerifyEmailAddress(ApplicationUser user, string token)
+    {
+        return await _userManager.ConfirmEmailAsync(user, token);
+    }
+
+    public async Task<IdentityResult> UpdateUserPassword(ApplicationUser user, string token, string newPassword)
+    {
+        return await _userManager.ResetPasswordAsync(user, token, newPassword);
     }
 }

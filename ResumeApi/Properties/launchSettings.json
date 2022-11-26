@@ -12,7 +12,7 @@
     "ResumeApi": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "http://localhost:50974",
+      "applicationUrl": "http://localhost:58604",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

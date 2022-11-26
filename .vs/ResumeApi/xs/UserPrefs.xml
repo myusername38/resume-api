@@ -1,28 +1,56 @@
 ﻿<Properties StartupConfiguration="{F33DF23D-7E59-4C6B-BA15-4B28F9FCD60E}|Default">
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/martinsmolka/projects/ResumeApi/ResumeApi/Models/Email/MailData.cs" relfile="ResumeApi/Models/Email/MailData.cs" line="26" column="1" />
+      <Breakpoint file="/Users/martinsmolka/projects/ResumeApi/ResumeApi/Controllers/AuthenticatationController.cs" relfile="ResumeApi/Controllers/AuthenticatationController.cs" line="67" column="1" />
+      <Breakpoint file="/Users/martinsmolka/projects/ResumeApi/ResumeApi/Services/EmailService.cs" relfile="ResumeApi/Services/EmailService.cs" line="85" column="1" />
+      <Breakpoint file="/Users/martinsmolka/projects/ResumeApi/ResumeApi/Services/EmailService.cs" relfile="ResumeApi/Services/EmailService.cs" line="83" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="ResumeApi/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ResumeApi/Models/Email/MailData.cs">
     <Files>
       <File FileName="ResumeApi/Auth/RoleRequirementHandler.cs" Line="1" Column="1" />
-      <File FileName="ResumeApi/Auth/RoleRequirement.cs" Line="1" Column="1" />
-      <File FileName="ResumeApi/Controllers/AuthenticatationController.cs" Line="27" Column="45" />
-      <File FileName="ResumeApi/Auth/AuthService.cs" Line="16" Column="18" />
+      <File FileName="ResumeApi/Services/EmailService.cs" Line="62" Column="1" />
+      <File FileName="ResumeApi/Controllers/AuthenticatationController.cs" Line="67" Column="1" />
       <File FileName="ResumeApi/Auth/AnyRoleRequirement.cs" Line="1" Column="1" />
-      <File FileName="ResumeApi/Auth/Policies.cs" Line="1" Column="1" />
       <File FileName="ResumeApi/Auth/AuthRole.cs" Line="1" Column="1" />
+      <File FileName="ResumeApi/Auth/AuthService.cs" Line="24" Column="12" />
+      <File FileName="ResumeApi/Auth/Policies.cs" Line="1" Column="1" />
+      <File FileName="ResumeApi/Auth/RoleRequirement.cs" Line="1" Column="1" />
+      <File FileName="ResumeApi/Controllers/SolutionController.cs" Line="1" Column="1" />
+      <File FileName="ResumeApi/Controllers/WeatherForecastController.cs" Line="1" Column="1" />
+      <File FileName="ResumeApi/Services/LikeService.cs" Line="1" Column="1" />
       <File FileName="ResumeApi/appsettings.Development.json" Line="1" Column="1" />
-      <File FileName="ResumeApi/Program.cs" Line="12" Column="19" />
+      <File FileName="ResumeApi/Program.cs" Line="25" Column="56" />
       <File FileName="ResumeApi/Controllers/UserController.cs" Line="1" Column="1" />
+      <File FileName="ResumeApi/Dtos/User/EmailDto.cs" Line="10" Column="6" />
+      <File FileName="ResumeApi/Dtos/User/CreateUserDto.cs" Line="12" Column="5" />
+      <File FileName="ResumeApi/Dtos/User/LoginDto.cs" Line="1" Column="1" />
+      <File FileName="ResumeApi/Services/UserService.cs" Line="1" Column="1" />
+      <File FileName="ResumeApi/Services/EmailTemplateService.cs" Line="42" Column="33" />
+      <File FileName="ResumeApi/Models/Email/MailData.cs" Line="29" Column="1" />
+      <File FileName="ResumeApi/Repos/UserRepo.cs" Line="18" Column="1" />
+      <File FileName="ResumeApi/ApplicationDbContext.cs" Line="14" Column="1" />
+      <File FileName="ResumeApi/Utils/Encryption.cs" Line="1" Column="1" />
+      <File FileName="ResumeApi/appsettings.json" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ResumeApi" expanded="True">
             <Node name="ResumeApi" expanded="True">
+              <Node name="Auth" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Dtos" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Email" expanded="True">
+                  <Node name="MailData.cs" selected="True" />
+                </Node>
+              </Node>
+              <Node name="Repos" expanded="True" />
               <Node name="Services" expanded="True" />
+              <Node name="Utils" expanded="True" />
               <Node name="appsettings.json" expanded="True" />
-              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>

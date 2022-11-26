@@ -73,3 +73,6 @@
 /Users/martinsmolka/projects/ResumeApi/ResumeApi/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
 /Users/martinsmolka/projects/ResumeApi/ResumeApi/bin/Debug/net6.0/Microsoft.Extensions.Identity.Core.dll
 /Users/martinsmolka/projects/ResumeApi/ResumeApi/bin/Debug/net6.0/Microsoft.Extensions.Identity.Stores.dll
+/Users/martinsmolka/projects/ResumeApi/ResumeApi/bin/Debug/net6.0/MailKit.dll
+/Users/martinsmolka/projects/ResumeApi/ResumeApi/bin/Debug/net6.0/MimeKit.dll
+/Users/martinsmolka/projects/ResumeApi/ResumeApi/bin/Debug/net6.0/BouncyCastle.Crypto.dll
